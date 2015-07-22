@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:id="@+id/displayname" android:text="TextView" android:gravity="center"></TextView>
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/scrollView1">
+		<LinearLayout android:id="@+id/content"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			
+			<ImageView android:layout_width="wrap_content" android:id="@+id/photo"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dip" android:paddingRight="10dip"
+				android:paddingTop="5dip"
+				android:layout_gravity="center_horizontal" android:contentDescription="@string/band_image"></ImageView>
+
+			<TextView android:text="TextView" android:id="@+id/description"
+				android:autoLink="web"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:paddingLeft="5dip" android:paddingRight="10dip"
+				android:paddingTop="5dip"></TextView>
+            <TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/eventHeader"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:text="@string/scheduled_time"></TextView>
+
+            <LinearLayout
+                    android:id="@+id/event_container"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:clickable="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:id="@+id/event_details"
+                          android:text=""
+                          android:padding="5dip"></TextView>
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/alarm_icon" android:layout_gravity="right"/>
+            </LinearLayout>
+
+        </LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

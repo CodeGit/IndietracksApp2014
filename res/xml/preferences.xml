@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Alarm" android:key="pref_AlarmTitle">
+        <ListPreference
+                android:key="pref_alarmAdvance"
+                android:title="Alarm pre-delay"
+                android:dialogTitle="The alarm will ring this many minutes before the event"
+                android:defaultValue="@string/default_predelay"
+                android:entries="@array/predelay_values"
+                android:entryValues="@array/predelay_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Indietracks 2014</string>
+    <string name="artist_name">Indietracks 2014 Artist</string>
+    <string name="IndietracksAppData">indietracks_datafile</string>
+    <string name="artistsAction">Artists</string>
+    <string name="scheduleAction">Schedule</string>
+    <string name="timelineAction">Timeline</string>
+    <string name="gettingThereInfo">Travel</string>
+    <string name="taxisInfo">Taxis</string>
+    <string name="aboutInfo">About</string>
+    <string name="actionInfo">Guide</string>
+    <string name="infoAction">Info</string>
+    <string name="settingsAction">Settings</string>
+    <string name="scheduled_time">Schedule</string>
+    <string name="band_image">Image of band, DJ or Workshop</string>
+</resources>

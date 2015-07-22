@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/info_getting_there"
+          android:title="@string/gettingThereInfo"
+          android:showAsAction="always" />
+    <item android:id="@+id/info_taxis"
+          android:title="@string/taxisInfo"
+          android:showAsAction="always" />
+    <item android:id="@+id/info_about"
+          android:title="@string/aboutInfo"
+          android:showAsAction="always" />
+    <item android:id="@+id/info_action"
+          android:title="@string/actionInfo"
+          android:showAsAction="always" />
+    <item android:id="@+id/settings_action"
+          android:title="@string/settingsAction"
+          android:showAsAction="always" />
+</menu>

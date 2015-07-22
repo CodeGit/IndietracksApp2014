@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_artists"
+          android:icon="@drawable/action_artists"
+          android:title="@string/artistsAction"
+          android:showAsAction="always|withText" />
+    <item android:id="@+id/action_schedule"
+          android:icon="@drawable/action_schedule"
+          android:title="@string/scheduleAction"
+          android:showAsAction="always|withText" />
+    <item android:id="@+id/action_timeline"
+          android:icon="@drawable/action_timeline"
+          android:title="@string/timelineAction"
+          android:showAsAction="always|withText" />
+    <item android:id="@+id/action_info"
+          android:icon="@drawable/action_info"
+          android:title="@string/infoAction"
+          android:showAsAction="always|withText" />
+</menu>

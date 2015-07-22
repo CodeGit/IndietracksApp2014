@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Indietracks" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Widget.Indietracks.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Indietracks.ActionBar</item>
+
+    </style>
+    <style name="Widget.Indietracks.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="background">#7F7F7F</item>
+        <item name="android:background">#7F7F7F</item>
+    </style>
+</resources>
